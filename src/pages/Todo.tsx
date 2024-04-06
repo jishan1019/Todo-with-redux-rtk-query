@@ -5,8 +5,7 @@ import React from "react";
 export default function Todo() {
   return (
     <Container>
-      <h1>My Todos</h1>
-
+      <h1 className="text-center text-3xl font-semibold">My Todos</h1>
       <TodoContainer />
     </Container>
   );
