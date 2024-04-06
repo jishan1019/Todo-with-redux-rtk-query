@@ -13,12 +13,14 @@ To set up the Todo Application locally on your machine, follow these simple step
 - cd todo-application
 - Install Dependencies: Use npm or yarn to install the project dependencies:
 
-npm install
+npm install<br/>
+or<br/>
 yarn
 
 - Start the Development Server: Once the dependencies are installed, start the development server by running:
 
-npm run dev
+npm run dev <br/>
+or<br/>
 yarn dev
 
 # Features <br/>
