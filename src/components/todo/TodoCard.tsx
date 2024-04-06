@@ -1,12 +1,17 @@
 import { Button } from "../ui/button";
 
-export default function TodoCard() {
+type TTodoCardProps = {
+  title: string;
+  description: string;
+};
+
+export default function TodoCard({ title, description }: TTodoCardProps) {
   return (
     <div className="bg-white rounded flex justify-between items-center p-3 border">
       <input type="checkbox" name="" id="" />
-      <p className="font-semibold">Todo Title</p>
-      <p>Time</p>
-      <p>Description</p>
+      <p className="font-semibold">{title}</p>
+      {/* <p>Time</p> */}
+      <p>{description}</p>
 
       <div className="space-x-5">
         <Button className="bg-red-500">
@@ -30,7 +35,7 @@ export default function TodoCard() {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             className="w-4 h-4"
           >
