@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+- Todo Application
+  This is a todo application built using TypeScript, React, Redux, and Trk Query. Users can add, delete, and update their todo items using this application.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Installation Guide (Local Setup)
+  To set up the Todo Application locally on your machine, follow these simple steps:
 
-Currently, two official plugins are available:
+- Installation Steps
+  Clone the Repository: Open your terminal and run the following command to clone the Todo Application repository:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+git clone https://github.com/your-username/todo-application.git
+Navigate to the Project Directory: Move into the project directory by running the following command:
 
-## Expanding the ESLint configuration
+cd todo-application
+Install Dependencies: Use npm or yarn to install the project dependencies:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+npm install
+yarn
+Start the Development Server: Once the dependencies are installed, start the development server by running:
 
-- Configure the top-level `parserOptions` property like this:
+npm run dev
+yarn dev
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Features
+  Add todo items
+  Delete todo items
+  Update todo items
